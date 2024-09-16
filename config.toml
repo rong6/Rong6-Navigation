@@ -1,0 +1,40 @@
+baseURL               = "https://nav.rong6.cn/"
+languageCode          = "zh-CN"
+title                 = "荣6的网站导航"
+theme                 = "WebStack-Hugo"
+preserveTaxonomyNames = true
+disablePathToLower    = true
+hasCJKLanguage        = true
+publishDir            = "public"				# 站点静态文件保存目录
+
+
+[params]
+    author        = "rong6"
+    description   = "荣6的网站导航（Rong6’s Navigation）提供便利、快捷、安全的上网导航体验。精选各类网站，涵盖新闻、社交、购物、娱乐、学习等多领域，满足您的多样需求。"
+    upload        = "https://jsj.top/f/jpXJhz?x_field_1=web"      # 左侧导航栏的"网站提交"
+    about         = "./about"	                                  # 左侧导航栏的"关于导航"页面(./about)
+    repository    = "https://github.com/rong6/Rong6-Navigation"  
+    enablePreLoad = true				                          # 网站完全打开前预加载动画
+    textPreLoad   = "荣6的网站导航"				                   # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    expandSidebar = true				                  	      # 默认展开左侧边导航栏
+    logosPath     = "assets/images/logos"		 	              # 网站每个导航地址logo存放地址
+    defaultLogo   = "assets/images/logos/default.webp"		      # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
+    nightMode     = false					                      # 默认站点为深色(夜间)模式
+    yiyan         = true                         		          # 默认启用一言服务
+
+
+[params.qweather]
+    key = ""
+
+[params.images]
+    favicon           = "assets/images/logo.svg"
+    logoExpandLight   = "assets/images/logo.svg"
+    logoExpandDark    = "assets/images/logo.svg"
+    logoCollapseLight = "assets/images/logo.svg"
+    logoCollapseDark  = "assets/images/logo.svg"
+    
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params.footer]
+    copyright = '本站内容源自互联网，如果您决定访问任何与本站无关的第三方网站，其可能带来的风险全部由您自己承担。<br/>Powered by [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)</br>Copyright &copy; {year} [Rong6](https://rong6.cn) All rights reserved.'

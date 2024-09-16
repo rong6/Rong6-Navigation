@@ -1,0 +1,20 @@
+- item: 首页
+  icon: fa fa-home
+  link: "./"
+
+- item: 友链
+  icon: fas fa-link
+  link: "#friendlink"
+
+- item: 关于
+  icon: fa fa-info-circle icon-fw icon-lg mr-2
+  link: "./about"
+
+#- item: 关于
+#  icon: fa fa-cog
+#  link: ""
+#  list:
+#    - name: 教程
+#      url: https://github.com/shenweiyan/Knowledge-Garden/discussions/10
+#    - name: 源码
+#      url: https://github.com/shenweiyan/WebStack-Hugo

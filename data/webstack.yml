@@ -1,0 +1,341 @@
+---
+
+- taxonomy: 搜索引擎
+  icon: fas fa-search
+  links:
+    - description: 百度一下，你就知道。
+      logo: https://api.iowen.cn/favicon/baidu.com.png
+      title: 百度
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuYmFpZHUuY29t
+    - description: Bing是一款全球领先的搜索引擎，提供多语言和多领域的信息服务，让您轻松探索世界。
+      logo: https://api.iowen.cn/favicon/bing.com.png
+      title: Bing
+      url: ./redirect/?url=aHR0cHM6Ly9jbi5iaW5nLmNvbQ==
+    - description: Google是全球最大的搜索引擎。
+      logo: google.png
+      title: Google
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==
+    - description: Yandex是俄罗斯最大的搜索引擎。
+      logo: https://api.iowen.cn/favicon/yandex.com.png
+      title: Yandex
+      url: ./redirect/?url=aHR0cHM6Ly95YW5kZXguY29t
+    - description: DuckDuckGo是一款隐私保护的搜索引擎。
+      logo: https://api.iowen.cn/favicon/duckduckgo.com.png
+      title: DuckDuckGo
+      url: ./redirect/?url=aHR0cHM6Ly9kdWNrZHVja2dvLmNvbQ==
+    - description: 搜狗搜索是全球第三代互动式搜索引擎，支持微信公众号和文章搜索、知乎搜索、英文搜索等。
+      logo: https://api.iowen.cn/favicon/sogou.com.png
+      title: 搜狗
+      url: redirect/?url=aHR0cHM6Ly93d3cuc29nb3UuY29t
+    - description: 360搜索是安全、精准、可信赖的新一代搜索引擎，依托于360母品牌的安全优势，全面拦截各类钓鱼欺诈等恶意网站，提供更放心的搜索服务。
+      logo: https://api.iowen.cn/favicon/so.com.png
+      title: 360搜索
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuc28uY29t
+    - description: 新时代的搜索引擎！
+      logo: https://api.iowen.cn/favicon/sese.yyj.moe.png
+      title: Sese搜索
+      url: ./redirect/?url=aHR0cHM6Ly9zZXNlLnl5ai5tb2U=
+    - description: Perplexity AI 是一款由人工智能聊天机器人驱动的研究和会话搜索引擎，可使用自然语言预测文本回答查询。
+      logo: https://api.iowen.cn/favicon/perplexity.ai.png
+      title: Perplexity
+      url: ./redirect/?url=aHR0cHM6Ly9wZXJwbGV4aXR5LmFp
+    - description: 没有广告，直达结果。
+      logo: https://api.iowen.cn/favicon/metaso.cn.png
+      title: 秘塔AI搜索
+      url: ./redirect/?url=aHR0cHM6Ly9tZXRhc28uY24=
+
+- taxonomy: 社交媒体
+  icon: fas fa-user-friends
+  links:
+    - description: 随时随地发现新鲜事。
+      logo: https://api.iowen.cn/favicon/weibo.com.png
+      title: 微博
+      url: ./redirect/?url=aHR0cHM6Ly93d3cud2VpYm8uY29t
+    - description: 知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台。
+      logo: https://api.iowen.cn/favicon/www.zhihu.com.png
+      title: 知乎
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuemhpaHUuY29t
+    - description: 百度贴吧是以兴趣主题聚合志同道合者的互动平台，同好网友聚集在这里交流话题、展示自我、结交朋友。
+      logo: https://api.iowen.cn/favicon/tieba.baidu.com.png
+      title: 百度贴吧
+      url: ./redirect/?url=aHR0cHM6Ly90aWViYS5iYWlkdS5jb20=
+    - description: 抖音让每一个人看见并连接更大的世界，鼓励表达、沟通和记录，激发创造，丰富人们的精神世界，让现实生活更美好。
+      logo: https://api.iowen.cn/favicon/www.douyin.com.png
+      title: 抖音
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuZG91eWluLmNvbQ==
+    - description: 小红书是一个年轻生活方式分享平台。
+      logo: https://api.iowen.cn/favicon/www.xiaohongshu.com.png
+      title: 小红书
+      url: ./redirect/?url=aHR0cHM6Ly93d3cueGlhb2hvbmdzaHUuY29t
+    - description: 从突发新闻和娱乐资讯到体坛风云和政治时事，纵览事件全程，获悉实时评论。
+      logo: https://api.iowen.cn/favicon/x.com.png
+      title: X(Twitter)
+      url: ./redirect/?url=aHR0cHM6Ly93d3cudHdpdHRlci5jb20=
+    - description: Facebook是社交网络服务及社会化媒体网站。
+      logo: https://api.iowen.cn/favicon/www.facebook.com.png
+      title: Facebook
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuZmFjZWJvb2suY29t
+    - description: Instagram是Meta公司的一款免费提供线上图片及视频分享的社交平台。
+      logo: https://api.iowen.cn/favicon/www.instagram.com.png
+      title: Instagram
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbQ==
+    - description: Threads是Meta Platforms旗下的社交网络平台。
+      logo: https://api.iowen.cn/favicon/www.threads.net.png
+      title: Threads
+      url: ./redirect/?url=aHR0cHM6Ly93d3cudGhyZWFkc3RlYW1zLm5ldA==
+
+- taxonomy: 新闻资讯
+  icon: fas fa-newspaper
+  links:
+    - description: 人民网，是世界十大报纸之一《人民日报》建设的以新闻为主的大型网上信息发布平台，也是互联网上最大的中文和多语种新闻网站之一。作为国家重点新闻网站，人民网以新闻报道的权威性、及时性、多样性和评论性为特色，在网民中树立起了“权威媒体、大众网站”的形象。
+      logo: https://api.iowen.cn/favicon/www.people.com.cn.png
+      title: 人民日报
+      url: ./redirect/?url=aHR0cHM6Ly93d3cucGVvcGxlLmNvbS5jbg==
+    - description: 观察者网，致力于荟萃中外思想者精华，鼓励青年学人探索，建中西文化交流平台，为崛起中的精英提供决策参考。 
+      logo: https://api.iowen.cn/favicon/www.guancha.cn.png
+      title: 观察者网
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuZ3VhbmNoYS5jbg==
+    - description: 网易新闻提供时政新闻,国内新闻,国际新闻,社会新闻,时事评论,新闻图片,新闻专题,新闻论坛,军事,历史等最热门一手的新闻资讯。
+      logo: https://api.iowen.cn/favicon/news.163.com.png
+      title: 网易新闻
+      url: ./redirect/?url=aHR0cHM6Ly9uZXdzLjE2My5jb20=
+    - description: 腾讯新闻是腾讯公司为用户提供的一款新闻资讯类应用，为用户提供最新的新闻资讯。
+      logo: https://api.iowen.cn/favicon/news.qq.com.png
+      title: 腾讯新闻
+      url: ./redirect/?url=aHR0cHM6Ly9uZXdzLnFxLmNvbQ==
+    - description: 澎湃是植根于中国上海的时政思想类互联网平台，以最活跃的原创新闻与最冷静的思想分析为两翼，是互联网技术创新与新闻价值传承的结合体，致力于问答式新闻与新闻追踪功能的实践。
+      logo: https://api.iowen.cn/favicon/www.thepaper.cn.png
+      title: 澎湃新闻
+      url: ./redirect/?url=aHR0cHM6Ly93d3cudGhlcGFwZXIuY24=
+    - description: 新浪新闻是新浪网的新闻频道，24小时滚动报道国内、国际及社会新闻。
+      logo: https://api.iowen.cn/favicon/news.sina.com.cn.png
+      title: 新浪新闻
+      url: ./redirect/?url=aHR0cHM6Ly9uZXdzLnNpbmEuY29tLmNu
+    - description: 凤凰网是中国领先的综合门户网站，提供含文图音视频的全方位综合新闻资讯、及时直播、评论互动等，让您了解最新的新闻资讯。
+      logo: https://api.iowen.cn/favicon/www.ifeng.com.png
+      title: 凤凰新闻
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuaWZlbmcuY29t
+    - description: BBC是英国的广播公司，是英国的国家广播公司，也是世界上最大的广播公司之一。。
+      logo: https://api.iowen.cn/favicon/www.bbc.com.png
+      title: BBC
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuYmJjLmNvbQ==
+    - description: BBC中文网是英国广播公司的中文网站，为全球华人提供英国及国际新闻、视频、音频、图片和BBC中文节目信息，帮助你了解英国和世界。
+      logo: https://api.iowen.cn/favicon/www.bbc.com.png
+      title: BBC中文
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuYmJjLmNvbS96aG9uZ3dlbi9zaW1w
+    - description: CNN是美国的有线电视新闻网，是美国最大的有线电视新闻网之一。
+      logo: https://api.iowen.cn/favicon/edition.cnn.com.png
+      title: CNN
+      url: ./redirect/?url=aHR0cHM6Ly9lZGl0aW9uLmNubi5jb20=
+
+- taxonomy: 音乐播放
+  icon: fas fa-music
+  links:
+    - description: 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
+      logo: https://api.iowen.cn/favicon/music.163.com.png
+      title: 网易云音乐
+      url: ./redirect/?url=aHR0cHM6Ly9tdXNpYy4xNjMuY29t
+    - description: QQ音乐是腾讯公司推出的一款网络音乐播放器，拥有海量正版音乐库，音乐搜索、歌曲试听、音乐下载、铃声制作等功能。
+      logo: https://api.iowen.cn/favicon/y.qq.com.png
+      title: QQ音乐
+      url: ./redirect/?url=aHR0cHM6Ly95LnF1LmNvbS8=
+    - description: 酷狗音乐在线正版音乐网站，为您提供酷狗音乐播放器下载 、在线音乐试听下载，提供听书、长音频、频道、听小说和MV播放服务。酷狗音乐，就是歌多！小说相声也很多！场景音乐也很多！
+      logo: https://api.iowen.cn/favicon/www.kugou.com.png
+      title: 酷狗音乐
+      url: ./redirect/?url=aHR0cHM6Ly93d3cua3Vnb3UuY29t
+    - description: 酷我音乐是一款专业的在线音乐播放器，为用户提供高品质音乐体验。
+      logo: https://api.iowen.cn/favicon/www.kuwo.cn.png
+      title: 酷我音乐
+      url: ./redirect/?url=aHR0cHM6Ly93d3cua3V3by5jbg==
+    - description: Spotify是一款音乐、播客和视频流服务软件，提供音乐、播客和视频流服务。
+      logo: https://api.iowen.cn/favicon/www.spotify.com.png
+      title: Spotify
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuc3BvdGlmeS5jb20=
+    - description: Apple Music是苹果公司推出的一款音乐流媒体服务。
+      logo: https://api.iowen.cn/favicon/music.apple.com.png
+      title: Apple Music
+      url: ./redirect/?url=aHR0cHM6Ly9tdXNpYy5hcHBsZS5jb20=
+    - description: 果核音乐由果核维护的免费在线音乐播放器。
+      logo: https://api.iowen.cn/favicon/ghyinyue.com.png
+      title: 果核音乐
+      url: ./redirect/?url=aHR0cHM6Ly9naHlpbnl1ZS5jb20=
+    - description: Listen1是一个音乐播放器，可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。
+      logo: https://proxy.cha.one/https://avatars.githubusercontent.com/u/18599108?v=4
+      title: Listen1
+      url: ./redirect/?url=aHR0cHM6Ly9saXN0ZW4xLmdpdGh1Yi5pby9saXN0ZW4x
+    - description: 使用UWP的第三方网易云音乐播放器。
+      logo: https://proxy.cha.one/https://raw.githubusercontent.com/kengwang/HyPlayer/master/HyPlayer/Assets/icon.png
+      title: HyPlayer
+      url: ./redirect/?url=aHR0cHM6Ly9naXRodWIuY29tL0h5UGxheWVyL0h5UGxheWVy
+    - description: SPlayer是一个简约的音乐播放器，支持逐字歌词，下载歌曲，展示评论区，音乐云盘及歌单管理，音乐频谱，移动端基础适配
+      logo: https://proxy.cha.one/https://raw.githubusercontent.com/imsyy/SPlayer/dev/public/favicon.ico
+      title: SPlayer
+      url: ./redirect/?url=aHR0cHM6Ly9naXRodWIuY29tL2ltc3l5L1NQbGF5ZXIv
+
+- taxonomy: 影视动漫
+  icon: far fa-play-circle
+  links:
+    - description: BTNULL是一个电影资源搜索引擎，可以搜索到最新的电影资源。
+      logo: https://api.iowen.cn/favicon/www.btnull.org.png
+      title: BTNULL
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuYnRudWxsLm9yZw==
+    - description: 影视帝国是一个在线播放影视资源的网站。
+      logo: https://api.iowen.cn/favicon/videos.us.kg.png
+      title: 影视帝国
+      url: ./redirect/?url=aHR0cHM6Ly92aWRlb3MudXMua2c=
+    - description: 阿酷电影提供最新最快的视频分享。
+      logo: https://api.iowen.cn/favicon/v.393693.xyz.png
+      title: 阿酷电影
+      url: ./redirect/?url=aHR0cHM6Ly92LjM5MzY5My54eXo=
+    - description: 403影视是一个在线观看影视的网站。
+      logo: https://api.iowen.cn/favicon/www.055552.xyz.png
+      title: BTNULL
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuMDU1NTUyLnh5eg==
+    - description: 嘶哩嘶哩无论您喜欢哪种类型动漫，silisili都会竭尽全力为您呈现，嘶哩嘶哩动漫，为你打开二次元大门的小站（S站）,动漫后花园。
+      logo: https://api.iowen.cn/favicon/www.silisilifun.com.png
+      title: 嘶哩嘶哩
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuc2lsaXNpbGlmdW4uY29t
+    - description: Age动漫专业的在线动漫网站，动漫免费在线观看，高品质画质，实时更新，追番利器!
+      logo: https://api.iowen.cn/favicon/age.tv.png
+      title: Age动漫
+      url: ./redirect/?url=aHR0cDovL3d3dy5hZ2UudHY=
+    - description: 樱花动漫是一个老牌的在线观看动漫网站，提供几千部动漫在线播放，多个线路保证资源有效，更新快速，永久免费。
+      logo: https://api.iowen.cn/favicon/yhdm.one.png
+      title: 樱花动漫
+      url: ./redirect/?url=aHR0cHM6Ly93d3cueWhkbS5vbmU=
+    - description: 動漫花園 第三方 镜像站 以及 动画 BT 资源聚合站。
+      logo: https://api.iowen.cn/favicon/garden.breadio.wiki.png
+      title: 动画花园 AnimeGarden
+      url: ./redirect/?url=aHR0cHM6Ly9nYXJkZW4uYnJlYWRpby53aWtp
+
+- taxonomy: BT磁力
+  icon: fas fa-seedling
+  links:
+    - description: 导航 | 每天分享高质量的BT种子搜索引擎，为大家提供优质的影视、小说、图片、视频、美剧、等种子资源搜索服务。
+      logo: https://api.iowen.cn/favicon/torrent2.top.png
+      title: 种子资源导航
+      url: ./redirect/?url=aHR0cHM6Ly9jbG0ubGE=
+    - description: 导航 | 每天为您分享优质的磁力搜索网站，为大家提供高质量的影视、小说、图片、视频、美剧、美剧等搜索服务。
+      logo: https://api.iowen.cn/favicon/btmayi.top.png
+      title: BT蚂蚁磁力导航
+      url: ./redirect/?url=aHR0cHM6Ly9idG1heWkudG9w
+    - description: BTNULL是一个电影资源搜索引擎，内含搜索磁力功能，可以搜索到最新的电影资源。
+      logo: https://api.iowen.cn/favicon/www.btnull.org.png
+      title: BTNULL
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuYnRudWxsLm9yZw==
+    - description: BT联盟全球领先的BT种子搜索引擎，让用户在DHT网络的海量数据中快速找到全网最新的磁力链接
+      logo: https://api.iowen.cn/favicon/btlm.work.png
+      title: BT联盟
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuYnRsbS53b3Jr
+    - description: 磁力猫提供影视、书籍、软件等资源推荐以及整合信息，索引来自dht网络。
+      logo: https://api.iowen.cn/favicon/clm.la.png
+      title: 磁力猫
+      url: ./redirect/?url=aHR0cHM6Ly9jbG0ubGE=
+    - description: 分享快乐,如此简单! BT电影天堂-影视资源交流社区
+      logo: https://api.iowen.cn/favicon/www.1lou.me.png
+      title: BT之家
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuMWxvdS5tZQ==
+    - description: 片吧网最新720P/1080p高清电影BT种子、迅雷下载,为您提供最新电影、电视剧、综艺，热门动漫高清下载以及资讯！
+      logo: https://api.iowen.cn/favicon/www.pianbar.net.png
+      title: 片吧
+      url: ./redirect/?url=aHR0cHM6Ly93d3cucGlhbmJhci5uZXQ=
+    - description: 磁力天堂致力于打造国内最大的磁力链资源发布中心,提供1280高清、720P、蓝光等超清电影下载资讯服务。
+      logo: https://api.iowen.cn/favicon/www.clgod.xyz.png
+      title: 磁力天堂
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuY2xnb2QueHl6
+
+- taxonomy: 文学漫画
+  icon: fas fa-book-open
+  links:
+    - description: 微信读书提供海量正版书籍、小说、漫画、公众号、听书,多设备同步实现跨屏阅读。与微信好友一起发现更多精品好书,随时交流感想,让阅读不再孤独。
+      logo: https://api.iowen.cn/favicon/weread.qq.com.png
+      title: 微信读书
+      url: ./redirect/?url=aHR0cHM6Ly93ZXJlYWQucXEuY29tLw==
+    - description: 拷貝漫畫 為全球華人提供高質量 中文 全本漫畫，同人志。海賊王，火影忍者，哥布林殺手，進擊的巨人，龍珠，Magi魔笛，妖精尾巴。Fate/grand order，艦隊收集 艦娘，Granblue Fantasy 碧藍幻想，東方project，偶像大師，Love Live 同人志 18禁本子 全彩 應有盡有。
+      logo: https://api.iowen.cn/favicon/www.copymanga.tv.png
+      title: 拷貝漫畫
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuY29weW1hbmdhLnR2Lw==
+    - description: 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
+      logo: https://proxy.cha.one/https://raw.githubusercontent.com/gedoor/legado/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+      title: 阅读Legado
+      url: ./redirect/?url=aHR0cHM6Ly9naXRodWIuY29tL2dlZG9vci9sZWdhZG8=
+    - description: 笔趣阁收录了当前最火热的网络小说，笔趣阁免费提供高质量的小说最新章节，笔趣阁是广大网络小说爱好者必备的小说阅读网。
+      logo: https://api.iowen.cn/favicon/www.biquge.co.png
+      title: 笔趣阁
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuYmlxdWdlLmNv
+    - description: 不可描述的神奇网站……
+      logo: https://api.iowen.cn/favicon/18comic.vip.png
+      title: JM天堂
+      url: ./redirect/?url=aHR0cHM6Ly8xOGNvbWljLnZpcA==
+    
+- taxonomy: 设计资源
+  icon: fas fa-cut
+  links:
+    - description: 潮点视频是原创无水印视频素材交易平台，包含AE/PR视频模板、航拍/实拍视频素材等，是企业值得信赖的可商用视频素材网站。
+      logo: https://api.iowen.cn/favicon/shipin520.com.png
+      title: 潮点视频
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuc2hpcGluNTIwLmNvbQ==
+    - description: 才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频。
+      logo: https://api.iowen.cn/favicon/www.pexels.com.png
+      title: Pexels
+      url: ./redirect/?url=aHR0cHM6Ly93d3cucGV4ZWxzLmNvbS96aC1jbi8=
+
+- taxonomy: 实用工具
+  icon: fas fa-tools
+  links:
+    - description: 即时工具-致力打造即用即走型在线工具箱
+      logo: https://api.iowen.cn/favicon/www.67tool.com.png
+      title: 即时工具
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuNjd0b29sLmNvbQ==
+    - description: MikuTools - 一个轻量的工具集合
+      logo: https://api.iowen.cn/favicon/tools.miku.ac.png
+      title: MikuTools
+      url: ./redirect/?url=aHR0cHM6Ly90b29scy5taWt1LmFj
+    - description: 与您的钱包、您的同行、您的规则共享文件。
+      logo: https://api.iowen.cn/favicon/beta.fileverse.io.png
+      title: Fileverseio
+      url: ./redirect/?url=aHR0cHM6Ly9iZXRhLmZpbGV2ZXJzZS5pby8=
+    - description: AirPortal（空投快传）是一个可以跨设备传输文件的网站。只要您的设备联网，您就可以通过它在任意系统、任意设备间传输文件。无需登录或注册，只需打开空投快传、直接上传文件、记住所给的取件码或直接扫描二维码即可在另一台设备上下载文件。
+      logo: https://api.iowen.cn/favicon/airportal.cn.png
+      title: AirPortal
+      url: ./redirect/?url=aHR0cHM6Ly9haXJwb3J0YWwuY24=
+    - description: 万能视频图片解析下载，快速、免费、简单. 从1000+平台保存视频和图片。
+      logo: https://api.iowen.cn/favicon/snapany.com.png
+      title: SnapAny
+      url: ./redirect/?url=aHR0cHM6Ly9zbmFwYW55LmNvbQ==
+    - description: 比较来自注册商3,484域扩展54的价格。检查域可用性，发现免费功能，并找到最佳域注册商。
+      logo: https://api.iowen.cn/favicon/zh-hans.tld-list.com.png
+      title: TLD-List
+      url: ./redirect/?url=aHR0cHM6Ly96aC1oYW5zLnRsZC1saXN0LmNvbS8/Y3VyPUNOWQ==
+    - description: 设计找字体就来找字体，海量无版权字体，找字体只为你的作品更加出彩。免费下载！无广告无套路！高速下载！
+      logo: https://api.iowen.cn/favicon/zfont.cn.png
+      title: 找字体
+      url: ./redirect/?url=aHR0cHM6Ly96Zm9udC5jbi8=
+    - description: FOFA 是白帽汇推出的一款网络空间搜索引擎，它通过进行网络空间测绘，能够帮助研究人员或者企业迅速进行网络资产匹配，例如进行漏洞影响范围分析、应用分布统计、应用流行度排名统计等。
+      logo: https://api.iowen.cn/favicon/fofa.info.png
+      title: FOFA
+      url: ./redirect/?url=aHR0cHM6Ly9mb2ZhLmluZm8=
+
+- taxonomy: 编程开发
+  icon: fas fa-code
+  links:
+    - description: GitHub，全球最大的开源社区，有数百万的开发者在这里共同构建和维护着数千万的项目。
+      logo: https://api.iowen.cn/favicon/github.com.png
+      title: GitHub
+      url: ./redirect/?url=aHR0cHM6Ly9naXRodWIuY29tLw==
+    - description: 菜鸟教程(www.runoob.com)提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。..
+      logo: https://api.iowen.cn/favicon/www.runoob.com.png
+      title: 菜鸟编程
+      url: ./redirect/?url=aHR0cHM6Ly93d3cucnVub29iLmNvbQ==
+
+- taxonomy: 云计算
+  icon: fas fa-cloud
+  links:
+    - description: 腾讯云(tencent cloud)为数百万的企业和开发者提供安全稳定的云计算服务，涵盖云服务器、云数据库、云存储、视频与CDN、域名注册等全方位云服务和各行业解决方案。
+      logo: https://api.iowen.cn/favicon/cloud.tencent.com.png
+      title: 腾讯云
+      url: ./redirect/?url=aHR0cHM6Ly9jbG91ZC50ZW5jZW50LmNvbS8=
+    - description: 阿里云——阿里巴巴集团旗下公司，是全球领先的云计算及人工智能科技公司之一。提供免费试用、云服务器、云数据库、云安全、云企业应用等云计算服务，以及大数据、人工智能服务、精准定制基于场景的行业解决方案。免费备案，7x24小时售后支持，助企业无忧上云。
+      logo: https://api.iowen.cn/favicon/www.aliyun.com.png
+      title: 阿里云
+      url: ./redirect/?url=aHR0cHM6Ly93d3cuYWxpeXVuLmNvbQ==

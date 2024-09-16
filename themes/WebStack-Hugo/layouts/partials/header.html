@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#f9f9f9" />
+    
+    <!-- Title and Meta Description for SEO -->
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}" />
+
+    <!-- Keywords for SEO -->
+    <meta name="keywords" content="{{ .Site.Params.description }}" />
+
+    <!-- Baidu Site Verification -->
+    {{ if $.Site.Params.seo.baiduSiteVer }}
+    <meta name="baidu-site-verification" content="{{ $.Site.Params.seo.baiduSiteVer }}" />
+    {{ end }}
+
+    <!-- Open Graph for better social media sharing -->
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}" />
+    <meta property="og:image" content="{{ absURL $.Site.Params.images.ogImage }}" />
+    <meta property="og:url" content="{{ absURL $.Site.BaseURL }}" />
+    <meta property="og:type" content="website" />
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ absURL $.Site.BaseURL }}",
+      "description": "{{ .Site.Params.description }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ absURL $.Site.BaseURL }}?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Stylesheets -->
+    <link rel="shortcut icon" href="{{ absURL $.Site.Params.images.favicon }}" />
+    <link rel="stylesheet" id="block-library-css"
+        href="{{ absURL "assets/css/block-library.min-5.6.2.css" }}" type="text/css" media="all" />
+    <link rel="stylesheet" id="iconfont-css" href="{{ absURL "assets/css/iconfont-3.03029.1.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="bootstrap-css" href="{{ absURL "assets/css/bootstrap.min-4.3.1.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="fancybox-css" href="{{ absURL "assets/css/fancybox.min-3.5.7.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="iowen-css" href="{{ absURL "assets/css/style-3.03029.1.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="custom-css" href="{{ absURL "assets/css/custom-style.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="fortawesome-css" href="{{ absURL "assets/fontawesome-5.15.4/css/all.min.css" }}" type="text/css" />
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="{{ absURL "assets/js/jquery.min-3.2.1.js" }}" id="jquery-js"></script>
+    <script type="text/javascript" src="{{ absURL "assets/js/content-search.js" }}" id="content-search-js"></script>
+
+</head>
